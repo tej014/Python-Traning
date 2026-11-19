@@ -1,6 +1,0 @@
-name = input("Enter your name :")
-age = int(input("Enter your age :"))
-marks = float(input("Enter your marks :"))
-print("wlecome :",name)
-print("your age is:",age)
-print("you scored:",marks)
