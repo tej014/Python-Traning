@@ -1,6 +1,8 @@
 #lists are the built in data type that store set of value
 #it can store elements of diffrent datatypes like int,bool,string,floating.
 # list are mutable
+n = [1,3,2,1,3,4,5,6,2,3,7]
+print(list(set(n)))
 
 marks = [75,35,84,56,35,75,36,90,68,83,46]
 # print(len(marks))
@@ -20,7 +22,7 @@ marks = [75,35,84,56,35,75,36,90,68,83,46]
 
 #list methode
 
-list = [2,1,4,3]
+list = [2,1,4,3,1,1]
 print("1",list)
 list.append(5)
 print("2",list)
@@ -38,3 +40,4 @@ list.pop(3)
 print("8",list)
 list.pop(2)
 print("9",list)
+
