@@ -21,7 +21,13 @@ print(list(students.items()))
 print(max(students, key=students.get))
 print(min(students,key=students.get))
 total = sum(students.values())
-
 avg = total / len(students)
 print(avg)
-x = list(students.values())
+# j=students.values()
+for name,marks in (students.items()):
+    if marks>40:
+        print("Passed",list[name])
+
+for name,marks in students.items():
+    if marks<40:
+        print("Failed",list[name])
