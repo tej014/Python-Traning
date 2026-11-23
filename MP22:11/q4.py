@@ -11,16 +11,16 @@
 # - Make the program case-insensitive.
 # - Ignore spaces in sentences.
 
-p = input("Enter a string: ")
-p = p.lower()
-p = p.replace(" ", "")
-
-l = list(p)
-
-a = l.copy()
-a.reverse()
-
-if l == a:
+x = "Madam"
+x = x.lower()
+x = x.replace(" ","")
+a = list(x)
+y = a.copy()
+y.reverse()
+print(y)
+if y==a:
     print("Palindrome")
 else:
-    print("Not a Palindrome")
+    print("not Palindrome")
+
+

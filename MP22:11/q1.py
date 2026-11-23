@@ -21,3 +21,4 @@ print(list(s))
 print("b:",s.count("b"))
 print("a:",s.count("a"))
 print("n:",s.count("n"))
+
